@@ -1,0 +1,116 @@
+nav{
+    background-color: burlywood;
+    overflow: hidden;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    height: 50px;
+   position:sticky;
+} 
+
+ul{
+
+    list-style-type: none; 
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    float: left;
+    /* padding: 5px; */
+    margin-right: 10px;
+}
+
+li:hover{
+    background: rgb(95, 67, 29);
+}
+
+a{
+    color: blueviolet;
+    /* padding: 25px,25px; */
+    /* margin-left: 20px; */
+    text-decoration: none;
+    text-align: center;
+}
+
+.righty{
+    float: right;
+}
+
+.center{
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+#gap{
+    margin-bottom: 10px;
+}
+.login{
+    margin-right: 20px;
+}
+#logout{
+    color: red;
+    margin-right: 1px;
+}
+.body{
+    background: url("images/pc.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    margin: 0px;
+}
+/* #2{ */
+    /* color: black; */
+    /* width: 410px; */
+        /* background-color: #5B5B5B; */
+    /* } */
+h1{
+    background-color: #5B5B5B;
+    width: 410px;
+    color:black;
+    border: 3px solid #666666;
+    /* border-style: ; */
+    /* padding: 10px; */
+    text-align: center;
+    /* margin:0 auto; */
+    /*margin-top: 200px;*/
+    font-family :'Pacifico', cursive;
+    border-radius:20px;
+    opacity: 0.8;
+
+}
+footer{
+    /* background : url("../The-Pattern-Farm-Wallpaper-triangle-footer.svg") no-repeat center center fixed ; */
+    /* background-color: #5B5B5B; */
+    background-size: cover ; 
+    /* text-align: center; */
+    /* margin:0 auto; */
+    /* margin-top: 320px; */
+    /* height: 90px;
+    width: 1003px; */
+    /* padding: 5px; */
+    /* padding-top: 5px; */
+     margin-top: height/3;
+     margin-bottom: width/2;
+   
+     color: black;
+    /* font-family :'Pacifico', cursive; */
+
+}
+i{
+    color: brown;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+  }
+  .error {color: #FF0000;}
